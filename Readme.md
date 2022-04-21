@@ -1,6 +1,6 @@
-# scripts-powershell #  
+# PowerShell Syntax Repository #
   
-This is a strorage of PowerShelle scripts syntax.  
+This is a strorage of PowerShell scripts syntax.  
   
 ## Execution Policy ##  
   
@@ -19,4 +19,12 @@ PowerShelle scripts had 4 branchs of `execution-policy`.
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 ```  
 
+## Create Variables ##
+
+Variables on PowerShell can or not be `typed`, to create a `local` variable is just declare on console 
+
+```
+[`type`]$`name`
+
+```
 
