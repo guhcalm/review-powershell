@@ -3,5 +3,5 @@
 $variavel = 'variavel value'
 echo $variavel
 
-$variavel = 20
-echo $variavel
+[float] $number = 20
+echo $number
