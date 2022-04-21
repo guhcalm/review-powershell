@@ -27,13 +27,30 @@ if ( $eggs -lt 12 ) {
     echo 'You have lass than dozen eggs'
 }
 
-[ int ] $x = 4
-if ( $x -gt 3 ) {
-    echo "$x is greater than or equal to 3"
-} elseif ( $x -eq 4 ) {
-    echo "$x is equals 4"
+[ inst ] $x = 4
+if ( $x -ge 3 ) {
+    echo '$x is greater than or equal to 3'
 } else {
-    echo "$x is lass than 3"
+    echo '$x is lass than 3'
+}
+
+
+[ string ] $day = ( date ).dayofweek
+
+if ($day -eq 'Monday') {
+	echo "Macaroni Monday"
+} elseif ($day -eq 'Tuesday') {
+	echo "Taco Tuesday"
+} elseif ($day -eq 'Wednesday') {
+	echo "Waffle Wednesday"
+} elseif ($day -eq 'Thursday') {
+	echo "Talapia Thursday"
+} elseif ($day -eq 'Friday') {
+	echo "Falafel Friday"
+} elseif ($day -eq 'Saturday') {
+	echo "Sushi Saturday"
+} else {
+	echo "Schnitzel Sunday"
 }
 
 
