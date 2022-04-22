@@ -16,7 +16,7 @@ PowerShelle scripts had 4 branchs of `execution-policy`.
 ### Set Execution Policy ###
 
 ```
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```  
 
 ## Create Variables ##
