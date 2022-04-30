@@ -1,6 +1,6 @@
 # PowerShell Syntax Repository #
   
-This is a strorage of PowerShell scripts syntax.  
+This is my strorage of PowerShell scripts syntax.  
   
 ## Execution Policy ##  
   
